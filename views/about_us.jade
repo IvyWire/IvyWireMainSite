@@ -1,0 +1,24 @@
+html
+	head
+	script(src='http://code.jquery.com/jquery-latest.min.js')    
+	script(src='bootstrap/js/bootstrap.min.js')
+	
+	link(rel='stylesheet', href='bootstrap/css/bootstrap.css')
+	link(rel='stylesheet', href='/stylesheets/style.css')
+	div#wrap
+		div.container
+			include includes/header.jade
+		
+			body
+				center
+					h1 #{title}
+				div.row-fluid.marketing
+					div.span6
+						h4 Our goals?
+						p moolah
+						br
+						h4 why we started?
+						p cuz we poor
+				
+				
+	include includes/footer
