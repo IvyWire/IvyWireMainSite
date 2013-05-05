@@ -17,16 +17,16 @@ html
 					form(action="mailto:ivywireline@gmail.com", method="post", enctype="text/plain")
 						div#clientName
 							h4 Name
-							input(type="text", name="clientName")
+							input(type="text", name="clientName", placeholder="FirstName LastName")
 						div#clientNumber
 							h4 Contact Phone Number
-							input(type="text", name="clientNumber")
+							input(type="text", name="clientNumber", placeholder="123-456-7890")
 						div#clientEmail
 							h4 Contact E-mail
-							input(type="text", name="clientEmail")
+							input(type="text", name="clientEmail", placeholder="yourid@domain.ca")
 						div#clientPlans
 							h4 Describe your plans/summarize your project
-							input(type="text", name="clientPlans")
+							textarea(name="clientPlans", form="mailto:ivywireline@gmail.com")
 						
 						div#clientSubmit
 							input(type="submit")
