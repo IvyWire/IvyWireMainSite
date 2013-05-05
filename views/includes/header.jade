@@ -7,47 +7,16 @@ div.masthead
 				
 	div.navbar
 		div.navbar-inner
-			div.container
-				ul.nav
-					- if(title == 'About Us')
+			div.container1
+					ul.nav1
 						li
-							a(href='/') Home
-						li.active
-							a(href='/about_us') About page
-						li
-							a(href='/contact_us') Contact us
-						li(id='menu1').dropdown
-							a(data-toggle='dropdown', href='#menu1').dropdown-toogle Dropdown
-								b.caret
-							ul.dropdown-menu
-								li
-									a(href='#') Test
-								li
-									a(href='#') Test2
-
-					- else if(title == 'Contact Us')
-						li
-							a(href='/') Home
-						li
-							a(href='/about_us') About page
-						li.active
-							a(href='/contact_us') Contact us
-						li(id='menu1').dropdown
-							a(data-toggle='dropdown', href='#menu1').dropdown-toogle Dropdown
-								b.caret
-							ul.dropdown-menu
-								li
-									a(href='#') Test
-								li
-									a(href='#') Test2
-									
-					- else
-						li.active
 							a(href='/') Home
 						li
 							a(href='/about_us') About page
 						li
 							a(href='/contact_us') Contact us
+						li
+							a(href='/web_development') Web Development
 						li(id='menu1').dropdown
 							a(data-toggle='dropdown', href='#menu1').dropdown-toogle Dropdown
 								b.caret

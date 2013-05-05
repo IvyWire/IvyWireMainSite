@@ -1,0 +1,52 @@
+html
+	head
+	script(src='http://code.jquery.com/jquery-latest.min.js')    
+	script(src='bootstrap/js/bootstrap.min.js')
+	
+	link(rel='stylesheet', href='bootstrap/css/bootstrap.css')
+	link(rel='stylesheet', href='/stylesheets/style.css')
+	div#wrap
+		div.container
+			include includes/header.jade
+			
+			body
+				center
+					h1 #{title}
+				div.app
+					div.apptitle
+						hr
+						div.apptitle-small
+							h2 Node.js
+					div.appinfo
+						div.appinfo-desc
+							p textaboutnode.js
+						div.appinfo-pic
+							img(src='/images/nodefakepic.png')
+				div.app
+					div.apptitle1
+						hr
+						div.apptitle-small1
+							h2 other application
+					div.appinfo1
+						div.appinfo-desc1
+							p textaboutnode.js
+						div.appinfo-pic1
+							img(src='/images/head-background1.png')
+					
+						
+						
+				
+				div.application
+				
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	include includes/footer

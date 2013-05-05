@@ -42,5 +42,10 @@ app.get('/contact_us', function(req, res){
 		title: 'Contact Us'
 	});
 });
+app.get('/web_development', function(req, res){
+	res.render('web_development', {
+		title: 'Web Development'
+	});
+});
 app.get('/', routes.index);
 // app.get('/users', user.list);
