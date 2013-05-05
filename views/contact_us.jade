@@ -14,7 +14,7 @@ html
 				p Interested in working with us? E-mail us now to get a quote/set up an appointment!
 				
 				div
-					form(action="mailto:ivywireline@gmail.com", method="post", enctype="text/plain")
+					form(name="clientForm", action="mailto:ivywireline@gmail.com", method="post", enctype="text/plain")
 						div#clientName
 							h4 Name
 							input(type="text", name="clientName", placeholder="FirstName LastName")
@@ -26,8 +26,8 @@ html
 							input(type="text", name="clientEmail", placeholder="yourid@domain.ca")
 						div#clientPlans
 							h4 Describe your plans/summarize your project
-							textarea(name="clientPlans", form="mailto:ivywireline@gmail.com",
-							placeholder="Pull corner to lengthen")
+							textarea(name="clientPlans", form="clientForm",
+								placeholder="Pull corner to lengthen")
 						
 						div#clientSubmit
 							input(type="submit")
