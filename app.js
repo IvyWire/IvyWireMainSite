@@ -37,8 +37,8 @@ app.get('/about_us', function(req, res){
 		title: 'About Us'
 	});
 });
-app.get('/contact_us', function(req, res){
-	res.render('contact_us', {
+app.get('/contact', function(req, res){
+	res.render('contact', {
 		title: 'Contact Us'
 	});
 });
@@ -50,6 +50,8 @@ app.get('/web_development', function(req, res){
 app.get('/', routes.index);
 // app.get('/users', user.list);
 
+app.get('/contact', routes.contact);
+
 
 // once submit is clicked, it sends an email, and sends it to another page. i will clean this up
 // later. i will find out how to send the variables later.
@@ -58,7 +60,7 @@ app.get('/contact_us_confirm', function(req, res){
 		title: 'contact_us_confirm'
 	});
 });
-app.post('/contact_us', function(req, res){
+app.post('/contact', function(req, res){
 
 	var nodemailer = require("nodemailer");
 
@@ -73,11 +75,12 @@ app.post('/contact_us', function(req, res){
 
 	// setup e-mail data with unicode symbols
 	var mailOptions = {
-		from: "Fred Foo ? <anthony_luu99@hotmail.com>", // sender address
+		from: "Client", // sender address
 		to: "ivywireline@gmail.com", // list of receivers
-		subject: "Hello ?", // Subject line
-		text: "Hello world ?", // plaintext body
-		html: "<b>Hello world ?</b>" // html body
+		subject: "Client Contact Form", // Subject line
+		text: "Name: " + req.body.name + "\n" + "Email: " + req.body.email + "\n" + 
+			"Phone: " + req.body.phone + "\n" + "Message: " + 
+			req.body.message, // plaintext body
 	}
 
 	// send mail with defined transport object
