@@ -1,9 +1,13 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #999999;
+  background-image:url('/images/background-gradient1.png');
+  background-size:100% 100%;
 }
+.darkgrey{
+	border: 1px solid rgb(124, 124, 124);
 
+}
 a {
   color: #00B7FF;
 }
