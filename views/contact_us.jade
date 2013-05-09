@@ -5,16 +5,17 @@ html
 	
 	link(rel='stylesheet', href='bootstrap/css/bootstrap.css')
 	link(rel='stylesheet', href='/stylesheets/style.css')
+
 	div#wrap
 		div.container
 			include includes/header.jade
 			
 			body
-				h1 Get in touch now!
+				h1 Get in touch now! 
 				p Interested in working with us? E-mail us now to get a quote/set up an appointment!
 				
 				div
-					form(name="clientForm", action="mailto:ivywireline@gmail.com", method="post", enctype="text/plain")
+					form(name="clientForm", action="", method="post", enctype="text/plain")
 						div#clientName
 							h4 Name
 							input(type="text", name="clientName", placeholder="FirstName LastName")

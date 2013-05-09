@@ -49,3 +49,49 @@ app.get('/web_development', function(req, res){
 });
 app.get('/', routes.index);
 // app.get('/users', user.list);
+
+
+// once submit is clicked, it sends an email, and sends it to another page. i will clean this up
+// later. i will find out how to send the variables later.
+app.get('/contact_us_confirm', function(req, res){
+	res.render('contact_us_confirm', {
+		title: 'contact_us_confirm'
+	});
+});
+app.post('/contact_us', function(req, res){
+
+	var nodemailer = require("nodemailer");
+
+	// create reusable transport method (opens pool of SMTP connections)
+	var smtpTransport = nodemailer.createTransport("SMTP",{
+		service: "Gmail",
+		auth: {
+			user: "ivywireline@gmail.com",
+			pass: "dograpist1234"
+		}
+	});
+
+	// setup e-mail data with unicode symbols
+	var mailOptions = {
+		from: "Fred Foo ? <anthony_luu99@hotmail.com>", // sender address
+		to: "ivywireline@gmail.com", // list of receivers
+		subject: "Hello ?", // Subject line
+		text: "Hello world ?", // plaintext body
+		html: "<b>Hello world ?</b>" // html body
+	}
+
+	// send mail with defined transport object
+	smtpTransport.sendMail(mailOptions, function(error, response){
+		if(error){
+			console.log(error);
+		}else{
+			console.log("Message sent: " + response.message);
+		}
+
+		// if you don't want to use this transport object anymore, uncomment following line
+		//smtpTransport.close(); // shut down the connection pool, no more messages
+	});
+	res.render('contact_us_confirm', {
+		title: 'contact_us_confirm'
+	});
+});
