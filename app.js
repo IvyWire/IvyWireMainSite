@@ -47,6 +47,8 @@ app.get('/web_development', function(req, res){
 		title: 'Web Development'
 	});
 });
+
+
 app.get('/', routes.index);
 // app.get('/users', user.list);
 
@@ -58,6 +60,12 @@ app.get('/contact', routes.contact);
 app.get('/contact_us_confirm', function(req, res){
 	res.render('contact_us_confirm', {
 		title: 'contact_us_confirm'
+	});
+});
+
+app.get('/mobile_app_development', function(req, res){
+	res.render('mobile_app_development', {
+		title: 'mobile_app_development'
 	});
 });
 app.post('/contact', function(req, res){
