@@ -6162,6 +6162,21 @@ a.badge:focus {
 }
 
 #clientPlans input{
-  width:600px;
+  width: 600px;
   height: 400px;
+}
+
+#homeImageSlider{
+  width: 100%;
+  height: 300px;
+}
+
+#homeImageSlider img{
+  width: 400px;
+  height: 200px;
+  float:right;
+}
+
+div#homeImageDescription{
+  float:left;
 }
