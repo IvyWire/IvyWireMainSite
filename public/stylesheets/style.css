@@ -47,7 +47,7 @@ display: table;
 float: left;
 margin: 10px 10px 0 0;
 font-size: 22px;
-font-family: Arial, sans-serif;
+font-family: Trebuchet MS, sans-serif;
 }
 .navbar .nav1 > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
 color: #111111;
