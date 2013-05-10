@@ -617,7 +617,10 @@ a:focus {
 .container {
   margin-right: auto;
   margin-left: auto;
-  *zoom: 1;
+  margin-bottom: 5%;
+  margin-top: 0%;
+  background-color:#ebebeb;
+  box-shadow: 2px 2px 1px #888888;
 }
 
 .container:before,
@@ -6180,4 +6183,11 @@ a.badge:focus {
 #ivyHeading{
 	position: absolute;
 	top:0;
+}
+
+.navbar2{
+  min-height: 80px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #252525;
 }
