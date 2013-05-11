@@ -2,22 +2,28 @@ html
 	head
 	script(src='http://code.jquery.com/jquery-latest.min.js')    
 	script(src='bootstrap/js/bootstrap.min.js')
+	script(src='http://malsup.github.io/jquery.cycle.all.js')
 
-
+	script
+		$(document).ready(function() {
+			$('.slideshow').cycle({
+				fx: 'fade'
+			});
+		}); 
+	
 	link(rel='stylesheet', href='bootstrap/css/bootstrap.css')
 	link(rel='stylesheet', href='/stylesheets/style.css')
-	link(rel='stylesheet', href='/stylesheets/orbit-1.2.3.css')
+	link(rel='stylesheet', href='/stylesheets/style2.css')
+	
 	div#wrap
 		div.container
 			include includes/header.jade
 			
 			body
 				center
-					div.content#homeImageSlider
-											
-					div#welcomeScreen
-						h4 You've got an idea? We've got a solution.
-					div#welcomeTabs
+					div.slideshow
+						img(src='/images/codes.jpg')
+						img(src='/images/sky.jpg')
 						
 				p Index body par
 	include includes/footer
