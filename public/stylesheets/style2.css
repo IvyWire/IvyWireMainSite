@@ -1,6 +1,6 @@
 @font-face {
-	font-family: ;
-	src: url() format("truetype");
+	font-family: "Kimberley";
+	src: url(http://www.princexml.com/fonts/larabie/kimberle.ttf) format("truetype");
 }
 
 
@@ -111,26 +111,30 @@
 .webSection{
 	margin: 20px;
 	margin-right: 450px;
+	margin-top:50px;
+	margin-bottom:50px;
 	padding:5px;
-	background-image:url(/images/rounded_edge2.png);
+	background-image:url(/images/textleft.png);
 	background-size:100% 100%;
-	box-shadow: 5px;
 	float:left;
 }
 
 .webSection4{
 	margin: 20px;
 	margin-left: 450px;
+	margin-top:50px;
+	margin-bottom:50px;
 	padding: 5px;
-	background-image:url(/images/rounded_edge2.png);
+	background-image:url(/images/textright.png);
 	background-size:100% 100%;
-	box-shadow: 5px;
 	float:right;
 }
 .pageSectionHeading{
 	font-family: 'Open Sans',sans-serif;
 	font-size: 50px;
-	margin: 0 15px 0 15px;
+	margin-top: 15px;
+	margin-left:20px;
+	margin-right:20px;
 	letter-spacing: 2px;
 	padding-bottom: 10px;
 }
@@ -138,19 +142,31 @@
 .pageSection{
 	font-family: 'Open Sans';
 	margin-left:30px;
-	margin-right:30px;
+	margin-right:35px;
+	margin-bottom: 20px;
 	font-size: 15px;
 	font-weight: bold;
 	padding-bottom: 25px;
 }
-
+.pageSection ul{
+	margin-bottom:60px;
+}
 #left{
-
+	float:left;
 }
 
 #right{
+	float:right;
+}
+
+#middle{
+	float:middle;
+}
+
+.webList{
 
 }
+
 <<<<<<< HEAD
 
 =======
