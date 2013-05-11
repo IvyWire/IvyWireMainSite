@@ -1,3 +1,9 @@
+@font-face {
+	font-family: ;
+	src: url() format("truetype");
+}
+
+
 .container3{
 	margin-right: auto;
 	margin-left: auto;
@@ -147,10 +153,6 @@
 }
 <<<<<<< HEAD
 
-.slideshow{
-	width:250px;
-	height:450px;
-}
 =======
 .navbar2
 {
@@ -162,6 +164,41 @@
 	box-shadow: 2px 2px 1px #373737;
 }
 .slideshow{
-  width:250px;
-  height:450px;
+  width:350px;
+  height:600px;
+  float:right;
+  margin-right:50px;
+  margin-top: 25px;
+}
+
+#homeHeading1{
+	font-family: 'Open-sans', sans-serif;
+	font-size: 40px;
+	color: #FE2E2E;
+	margin: 1px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+#homeHeading2{
+	font-family: 'Open-sans', sans-serif;
+	font-size: 40px;
+	color: #FA5858;
+	margin: 2px;
+	text-transform:uppercase;
+}
+
+#homeHeading3{
+	font-family: 'Open-sans', sans-serif;
+	font-size: 28px;
+	color: #F78181;
+	margin: 3px;
+	text-transform:uppercase;
+}
+
+.homeSection1{
+	float:left;
+	margin-left: 25px;
+	margin-top: 25px;
+	padding-left:10px;
 }
