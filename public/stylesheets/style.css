@@ -6,7 +6,7 @@ body {
 }
 .darkgrey{
 	border: 1px solid rgb(124, 124, 124);
-
+	margin:0px;
 }
 a {
   color: #00B7FF;
