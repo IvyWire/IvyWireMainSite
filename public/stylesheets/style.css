@@ -12,6 +12,7 @@ body {
 }
 a {
   color: #00B7FF;
+  padding:15px;
 }
 #wrap{
 	min-height: 100%;
@@ -189,6 +190,7 @@ a:hover{
 	padding-bottom: 5%;
 	padding-left:100px;
 	padding-right:100px;
+	padding-top:10px;
 	margin-top: 40px;
 	background-color: black;
 }
