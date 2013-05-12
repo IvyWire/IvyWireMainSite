@@ -1,13 +1,14 @@
 body {
-  padding: 50px;
+  padding-top: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color:#F6D8CE;
+  background-color:#31aee4;
   background-size:100% 100%;
-  width:100%;
 }
 .darkgrey{
-	border: 1px solid rgb(124, 124, 124);
-	margin:0px;
+	height:50px;
+	background-image:url(/images/fading-hr.png);
+	background-size:100% 100%;
+	background-color:#31aee4;
 }
 a {
   color: #00B7FF;
@@ -37,6 +38,8 @@ a {
 	float: none;
 	display: table-cell;
 	text-align:center;
+	padding:10px;
+	font-size:20px;
 }
 .container1 li a:hover{
 	background:url('../images/nav-hover-right.png') no-repeat center right;
@@ -179,4 +182,16 @@ a:hover{
 	padding:20px;
 	border: 1px solid #d4d4d4;
 	background-color: #fafafa;
+}
+.container-footer{
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 5%;
+	padding-left:100px;
+	padding-right:100px;
+	margin-top: 40px;
+	background-color: black;
+}
+.container-footer p{
+	color:white;
 }
