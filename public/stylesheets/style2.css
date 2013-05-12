@@ -258,13 +258,29 @@
 }
 
 #homeSection ul{
-	letter-spacing:1px;
+	letter-spacing:2px;
 	color: #BDBDBD;
 	font-family: 'Open-sans', sans-serif;
-	font-size: 14px;
+	font-size: 13px;
 	margin-left:100px;
+	line-height: 2em;
+	font-weight:bold;
+}
+
+#homeSection li{
+	line-height: 2em;
 }
 #homeSection img{
 	float:right;
 	margin-right:20px;
+	height:275px;
+	width:400px;
+}
+
+#homePics{
+	margin-top: 20px;
+	margin-right:20px;
+	float:right;
+	height:275px;
+	width:400px;
 }

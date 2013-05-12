@@ -6,7 +6,7 @@ html
 
 	script
 		$(document).ready(function() {
-			$('.slideshow').cycle({
+			$('#homePics').cycle({
 				fx: 'fade'
 			});
 		}); 
@@ -21,6 +21,9 @@ html
 			
 			body
 				div#homeSection
+					div#homePics
+						img(src="/images/codes.jpg")
+						img(src="/images/sky.jpg")
 					p#homeHeading.
 						<span style="font-weight:bold;font-size:30px;color:#DF3A01">About us</span>
 						<br>
@@ -31,5 +34,6 @@ html
 						li Web development and web design
 						li Mobile applications development
 						li Website maintenance
-						
+				
+					
 	include includes/footer
