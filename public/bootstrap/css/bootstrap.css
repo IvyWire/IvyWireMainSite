@@ -618,9 +618,7 @@ a:focus {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 5%;
-  margin-top: 0%;
-  background-color:#FFFFFF;
-  box-shadow: 2px 2px 1px #888888;
+  margin-top: 40px;
 }
 
 .container:before,
@@ -6187,5 +6185,5 @@ a.badge:focus {
 
 .navbar2{
   min-height: 80px;
-  background-color: #252525;
+  background-color: #000000;
 }

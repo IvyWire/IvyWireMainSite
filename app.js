@@ -32,9 +32,9 @@ if ('development' == app.get('env')) {
 	// res.redirect('/about_us',{
 		// title: 'Todos about_us view' });
 // });
-app.get('/about_us', function(req, res){
-	res.render('about_us', {
-		title: 'About Us'
+app.get('/plans', function(req, res){
+	res.render('plans', {
+		title: 'Plans'
 	});
 });
 app.get('/contact', function(req, res){
