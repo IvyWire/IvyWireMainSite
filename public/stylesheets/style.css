@@ -3,6 +3,7 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color:#F6D8CE;
   background-size:100% 100%;
+  width:100%;
 }
 .darkgrey{
 	border: 1px solid rgb(124, 124, 124);
