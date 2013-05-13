@@ -12,7 +12,7 @@ body {
 	background-color:#31aee4;
 }
 a {
-  color: #00B7FF;
+  color: #F8E0E0;
   padding:15px;
 }
 #wrap{
@@ -26,7 +26,12 @@ a {
 	position:relative;
 	text-align:left;
 }
-
+.container2{
+	padding-top: 5px;
+	background:url('/images/logo-horizontal.png');
+	position: relative;
+	text-align: left;
+}
 #nav2{
 	font-size: 35px;
 	padding: 5px;
@@ -51,6 +56,18 @@ a {
 	font-size:12px;
 	font-weight:bold;
 	letter-spacing: 1px;
+}
+#navBarOption1{
+	text-align:left;
+	padding-bottom:10px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	letter-spacing: 1px;
+	height:40px;
+	width:130px;
+	background-image:url('/images/ivywire-grey-glow.png');
+	background-size:100% 100%;
 }
 
 .container1 li a:hover{
