@@ -238,6 +238,22 @@
 	padding-bottom:20px;
 }
 
+#homeSection2 {
+	background-color: #151515;
+	border-radius: 3px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	margin-top: 80px;
+}
+
+#homeSection2Heading{
+	text-align: center;
+	font-family: ;
+	font-size: 50px;
+	color: ;
+}
+
 #homeSection p{
 	padding: 8px;
 	padding-top: 25px;
