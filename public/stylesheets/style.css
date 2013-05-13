@@ -45,6 +45,7 @@ a {
 .container1 li a:hover{
 	background:url('../images/nav-hover-right.png') no-repeat center right;
 	background-size:100% 100%;
+	text-decoration:none;
 }
 .navbar .nav1{
 position: relative;
@@ -137,7 +138,7 @@ a:hover{
 	position: absolute;
 	width: 500px;
 	height: 550px;
-	top: 10%;
+	top: 19%;
 	left:-500px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -183,11 +184,14 @@ a:hover{
 	padding:20px;
 	border: 1px solid #d4d4d4;
 	background-color: #fafafa;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
 }
 .container-footer{
 	margin-right: auto;
 	margin-left: auto;
-	padding-bottom: 5%;
+	padding-bottom: 52px;
 	padding-left:100px;
 	padding-right:100px;
 	padding-top:10px;
