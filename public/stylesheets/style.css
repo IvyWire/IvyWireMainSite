@@ -1,7 +1,8 @@
 body {
   padding-top: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image:url(/images/blue-fade-line-bg.png);
+  font-size: 14px;
+  font-family: 'Share', cursive;
+  background-color:#FFFFFF;
   background-size:100% 100%;
 }
 .darkgrey{
@@ -21,7 +22,7 @@ a {
 	margin: 0 auto -60px;
 }
 .container1{
-	padding:1%;
+	padding-top:5px;
 	position:relative;
 	text-align:left;
 }
@@ -42,6 +43,16 @@ a {
 	padding:10px;
 	font-size:20px;
 }
+
+#navBarOption{
+	text-align:left;
+	padding-bottom:10px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	letter-spacing: 1px;
+}
+
 .container1 li a:hover{
 	background:url('../images/nav-hover-right.png') no-repeat center right;
 	background-size:100% 100%;

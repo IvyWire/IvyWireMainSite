@@ -1,8 +1,7 @@
 @font-face {
-	font-family: "Kimberley";
-	src: url(http://www.princexml.com/fonts/larabie/kimberle.ttf) format("truetype");
+	font-family: "Noto Sans";
+	src: url(http://fonts.googleapis.com/css?family=Noto+Sans) format("truetype");
 }
-
 
 .container3{
 	margin-right: auto;
@@ -92,17 +91,29 @@
 	margin-bottom:6px;
 }
 #firstWebHeading{
-	
-}
-#webHeading{
-	font-family: 'Open Sans',​sans-serif;
-	color: #000000;
-	padding: 20px 0px 20px;
-	font-size:50px;
-	font-weight:bold;
-	letter-spacing: -2px;	
+	font-size: 60px;
+	padding-top:50px;
+	padding-bottom:50px;
+	padding-left:50px;
+	position:left;
+	color: #F8E0E0;
 }
 
+#webHeading{
+	margin-top: 70px;
+	background-color:#F5A9A9;
+}
+
+#webPicture{
+	float:right;
+}
+
+#WebHeading img{
+	height:120px;
+	width:auto;
+	float:right;
+	padding:
+}
 .webSection2{
 	margin-top: 30px;
 	background-size:100% 100%;
@@ -308,4 +319,9 @@
 }
 
 #pic23{
+}
+
+#homePage{
+	background-image:url(/images/blue-fade-line-bg.png);
+	background-size: 100% 100%;
 }

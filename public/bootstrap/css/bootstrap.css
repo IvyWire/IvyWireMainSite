@@ -4358,6 +4358,7 @@ input[type="submit"].btn.btn-mini {
   *z-index: 2;
   margin-bottom: 20px;
   overflow: visible;
+  background-color:#000000;
 }
 
 .navbar-inner {
@@ -4395,6 +4396,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar .container {
   width: auto;
+  height: 10px;
 }
 
 .nav-collapse.collapse {
@@ -4434,7 +4436,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar .divider-vertical {
-  height: 40px;
+  height: 20px;
   margin: 0 9px;
   border-right: 1px solid #ffffff;
   border-left: 1px solid #f2f2f2;
@@ -6183,6 +6185,7 @@ a.badge:focus {
 }
 
 .navbar2{
-  min-height: 80px;
+  min-height: 40px;
   background-color: #000000;
+  height:50px;
 }
