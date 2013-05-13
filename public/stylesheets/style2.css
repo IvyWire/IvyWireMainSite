@@ -341,10 +341,21 @@
 	padding-top:20px;
 	font-size: 15px;
 }
+.description2list {
+	margin-left:400px;
+	font-size:14px;
+	letter-spacing: 1px;
+}
+
 .heading2{
-	width:300px;
+	width:319px;
 	float:left;
 	font-size: 35px;
 	line-height: 1.25em;
 	letter-spacing:2px;
+	color:#F8E0E0;
+	background-color:#F5A9A9;
+	padding-bottom:44px;
+	padding-top: 40px;
+	text-align:center;
 }
