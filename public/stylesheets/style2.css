@@ -325,3 +325,26 @@
 	background-image:url(/images/blue-fade-line-bg.png);
 	background-size: 100% 100%;
 }
+
+.webBody{
+	padding-top: 40px;
+}
+
+#sectionOne{
+
+}
+.description2{
+	float:right;
+	text-align:left;
+	float:right;
+	width:600px;
+	padding-top:20px;
+	font-size: 15px;
+}
+.heading2{
+	width:300px;
+	float:left;
+	font-size: 35px;
+	line-height: 1.25em;
+	letter-spacing:2px;
+}
