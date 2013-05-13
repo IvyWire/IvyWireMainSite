@@ -6,7 +6,7 @@ html
 
 	script
 		$(document).ready(function() {
-			$('#homePics').cycle({
+			$('#pic23').cycle({
 				fx: 'fade'
 			});
 		}); 
@@ -22,8 +22,9 @@ html
 			body
 				div#homeSection
 					div#homePics
-						img(src="/images/codes.jpg")
-						img(src="/images/sky.jpg")
+						div#pic23
+							img(src="/images/codes.jpg")
+							img(src="/images/sky.jpg")
 					p#homeHeading.
 						<span style="font-weight:bold;font-size:30px;color:#FFFFFF">About us</span>
 						<br>
@@ -37,5 +38,9 @@ html
 				
 				div#homeSection2
 					p#homeSection2Heading Services
+					
+					center
+						p Web design | Ecommerce | Mobile Apps
+						p stuff...readmore | stuff...readmore | stuff...readmore
 					
 	include includes/footer

@@ -228,6 +228,8 @@
 	padding-top:7px;
 	padding-left:20px;
 	padding-bottom:1px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 	border-radius: 5px;
 }
 
@@ -291,9 +293,19 @@
 }
 
 #homePics{
-	margin-top: 20px;
+	margin-top: 15px;
 	margin-right:20px;
+	margin-bottom:5px;
 	float:right;
 	height:275px;
 	width:400px;
+	background-color: #FAFAFA;
+	padding:5px;
+	box-shadow: 2px;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+}
+
+#pic23{
 }
