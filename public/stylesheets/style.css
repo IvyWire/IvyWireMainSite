@@ -1,7 +1,7 @@
 body {
   padding-top: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color:#FFFFFF;
+  background-image:url(/images/blue-fade-line-bg.png);
   background-size:100% 100%;
 }
 .darkgrey{
