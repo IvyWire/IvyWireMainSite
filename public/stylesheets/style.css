@@ -2,8 +2,8 @@ body {
   padding-top: 50px;
   font-size: 14px;
   font-family: 'Noto Sans', sans-serif;
-  background-color:#FFFFFF;
-  background-size:100% 100%;
+  background-image:url('/images/green-pattern-bg.png');
+  background-repeat:repeat-x;
 }
 .darkgrey{
 	height:50px;
